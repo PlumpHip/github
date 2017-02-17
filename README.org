@@ -102,17 +102,26 @@ master(branch)로 새로운 작업들을 커밋하기 전에, 우리는 새로�
 # When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time.
 # If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.
 master branch에서 새 branch를 생성 하면 그 시점은 master(branch)의 사본인 새작업 branch가 됩니당.
-니가 새 branch를 만들어 작업하는동안 딴사람이 master branch를 변경한경우, update된 새작업들을 수동으로 받아올수(=pull)있다.
 
+새 branch를 만들어 작업하는동안 딴사람이 master branch를 변경한경우를 대비해...
+언제나 작업시에 update된 새작업들을 수동으로 받아와야(=pull)합니다.
+(드랍박스로 예를 들자면 업로드/다운로드 수동싱크로 생각하면됩니다.
+마치 FTP에서 Upload/Download 했었던것 처럼요)
 
-This diagram shows:
+# This diagram shows:
+이 다이어그램은 다음을 보여줍니다:
 
-    The master branch
-    A new branch called feature (because we’re doing ‘feature work’ on this branch)
-    The journey that feature takes before it’s merged into master
+ # + The master branch
+ # + A new branch called feature (because we’re doing ‘feature work’ on this branch)
+ # + The journey that feature takes before it’s merged into master
+ + The "master" branch
+ + feature라는 새로운 브랜치
+   (메인 master branch에서 'feature라는 작업'을 하고있기 때문에)
+ + feature branch가 생성되어 master branch에 병합되는 모습을 보여줌.
 
-a branch
+[[file:./images/branching.png]]
 
+# Have you ever saved different versions of a file? Something like:
 Have you ever saved different versions of a file? Something like:
 
     story.txt
