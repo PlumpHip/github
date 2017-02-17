@@ -1,0 +1,204 @@
+원문: https://guides.github.com/activities/hello-world/
+
+* Hello World
+10 minute read
+
+차례
+ + Intro
+ + What is GitHub?
+ + Create a Repository
+ + Create a Branch
+ + Make a Commit
+ + Open a Pull Request
+ + Merge Pull Request
+
+# The Hello World project is a time-honored tradition in computer programming.
+# It is a simple exercise that gets you started when learning something new.
+# Let’s get started with GitHub!
+Hello World 프로젝트는 컴퓨터 프로그래밍에서 오랜 전통입니다.
+새로운 것을 배울 때 당신을 시작할 수있는 간단한 운동입니다.
+GitHub을 시작합시다!
+
+# You’ll learn how to:
+다음 방법을 배우게됩니다:
+ + Create and use a repository
+ + Start and manage a new branch
+ + Make changes to a file and push them to GitHub as commits
+ + Open and merge a pull request
+
+# What is GitHub?
+GitHub이 뭐에용?
+
+# GitHub is a code hosting platform for version control and collaboration.
+# It lets you and others work together on projects from anywhere.
+GitHub은 버전 제어 및 공동 작업을위한 코드 호스팅 플랫폼입니다.
+그것은 당신과 다른 사람들이 어디서나 프로젝트를 함께 할 수있게합니다.
+
+# This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests.
+# You’ll create your own Hello World repository and learn GitHub’s Pull Request workflow, a popular way to create and review code.
+이 튜토리얼에서는 저장소(repositories), 분기(branches), 커밋(commits)
+및 끌어오기 요청(Pull Requests)과 같은 GitHub필수 기능에 대해 설명합니다.
+
+# No coding necessary
+코딩 필요 없음
+
+# To complete this tutorial, you need a GitHub.com account and Internet access.
+# You don’t need to know how to code, use the command line, or install Git (the version control software GitHub is built on).
+이 자습서를 완료하려면 GitHub.com 계정 과 인터넷 액세스가 필요합니다.
+코드 작성, 명령 행 사용 또는 Git (GitHub가 빌드 된 버전제어 소프트웨어)을 설치하는 방법을 알 필요가 없습니다.
+
+    # Tip: Open this guide in a separate browser window (or tab) so
+    # you can see it while you complete the steps in the tutorial.
+    팁 : 이 가이드는 별도의 브라우저 창 (또는 탭)에서 열어 튜토리얼의 단계를 완료하는 동안 볼 수 있습니다.
+
+# ** Step 1. Create a Repository
+** 1단계. 저장소(Repository) 만들기
+  # A repository is usually used to organize a single project.
+  # Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+  # We recommend including a README, or a file with information about your project.
+  # GitHub makes it easy to add one at the same time you create your new repository.
+  # It also offers other common options such as a license file.
+일반적으로 저장소 는 단일 프로젝트를 구성하는데 사용됩니다.
+리포지토리에는 프로젝트에 필요한 폴더 및 파일, 이미지, 비디오, 스프레드 시트 및 데이터 세트가 포함될 수 있습니다.
+README 또는 프로젝트 정보가 포함 된 파일을 포함하는 것이 좋습니다.
+GitHub를 사용하면 새 저장소를 만드는 동시에 쉽게 추가 할 수 있습니다.
+또한 라이센스 파일과 같은 다른 공통 옵션을 제공합니다.
+
+# Your "hello-world" repository can be a place where you store ideas,
+# resources, or even share and discuss things with others.
+hello-world 저장소는 아이디어, 자원을 저장하거나 다른 사람들과 공유하고 토론 할 수있는 장소가 될 수 있습니다.
+
+*** To create a new repository
+
+   # 1. In the upper right corner, next to your avatar or identicon, click and then select New repository.
+   1. 오른쪽 상단의 아바타 또는 identicon 옆에있는을 클릭하십시오.
+      (+)새저장소를 선택하십시오.
+   # 2. Name your repository hello-world.
+   2. 저장소 이름을 hello-world 지정하십시오.
+   # 3. Write a short description.
+   3. 짧은 설명을 작성하십시
+   4. Select Initialize this repository with a README.
+
+[[file:./images/create-new-repo.png]]
+
+# Click Create repository. :tada:
+Create repository 클릭. :tada:
+
+# ** Step 2. Create a Branch
+** 2단계. 분기지점(Branch) 만들기
+
+# Branching is the way to work on different versions of a repository
+# at one time.
+Branching은 한 저장소에서 여러버전들로 작업 할수있게 해줘요
+
+# By default your repository has one branch named master which is considered to be the definitive branch.
+# We use branches to experiment and make edits before committing them to master.
+기본적으로 저장소에는 최종 branch로 간주되는 master라는 하나의 branch가 있습니다.
+master(branch)로 새로운 작업들을 커밋하기 전에, 우리는 새로운 branch를 사용하여 실험하고 편집합니다.
+
+# When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time.
+# If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.
+master branch에서 새 branch를 생성 하면 그 시점은 master(branch)의 사본인 새작업 branch가 됩니당.
+니가 새 branch를 만들어 작업하는동안 딴사람이 master branch를 변경한경우, update된 새작업들을 수동으로 받아올수(=pull)있다.
+
+
+This diagram shows:
+
+    The master branch
+    A new branch called feature (because we’re doing ‘feature work’ on this branch)
+    The journey that feature takes before it’s merged into master
+
+a branch
+
+Have you ever saved different versions of a file? Something like:
+
+    story.txt
+    story-joe-edit.txt
+    story-joe-edit-reviewed.txt
+
+Branches accomplish similar goals in GitHub repositories.
+
+Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our master (production) branch. When a change is ready, they merge their branch into master.
+To create a new branch
+
+    Go to your new repository hello-world.
+    Click the drop down at the top of the file list that says branch: master.
+    Type a branch name, readme-edits, into the new branch text box.
+    Select the blue Create branch box or hit “Enter” on your keyboard.
+
+branch gif
+
+Now you have two branches, master and readme-edits. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
+
+Step 3. Make and commit changes
+
+Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master. Let’s make some edits.
+
+On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+Make and commit changes
+
+    Click the README.md file.
+    Click the
+
+    pencil icon in the upper right corner of the file view to edit.
+    In the editor, write a bit about yourself.
+    Write a commit message that describes your changes.
+    Click Commit changes button.
+
+commit
+
+These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+
+Step 4. Open a Pull Request
+
+Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+
+Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+
+By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+
+You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
+Open a Pull Request for changes to the README
+
+Click on the image for a larger version
+Step 	Screenshot
+Click the
+Pull Request tab, then from the Pull Request page, click the green New pull request button. 	pr-tab
+Select the branch you made, readme-edits, to compare with master (the original). 	branch
+Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
+When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
+Give your pull request a title and write a brief description of your changes. 	pr-form
+
+When you’re done with your message, click Create pull request!
+
+    Tip: You can use emoji and drag and drop images and gifs onto comments and Pull Requests.
+
+Step 5. Merge your Pull Request
+
+In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
+
+    Click the green Merge pull request button to merge the changes into master.
+    Click Confirm merge.
+    Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+merge delete
+Celebrate!
+
+By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada: :octocat: :zap:
+
+Here’s what you accomplished in this tutorial:
+
+    Created an open source repository
+    Started and managed a new branch
+    Changed a file and committed those changes to GitHub
+    Opened and merged a Pull Request
+
+Take a look at your GitHub profile and you’ll see your new contribution squares!
+
+To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project :octocat:
+
+    Tip: Check out our other Guides, YouTube Channel and On-Demand Training for more on how to get started with GitHub.
+
+Last updated April 7, 2016
