@@ -27,7 +27,7 @@ GitHub을 시작합시다!
  + Open and merge a pull request
 
 # What is GitHub?
-GitHub이 뭐에용?
+*GitHub이 뭐에용?*
 
 # GitHub is a code hosting platform for version control and collaboration.
 # It lets you and others work together on projects from anywhere.
@@ -74,10 +74,11 @@ hello-world 저장소는 아이디어, 자원을 저장하거나 다른 사람�
    1. 오른쪽 상단의 아바타 또는 identicon 옆에있는을 클릭하십시오.
       (+)새저장소를 선택하십시오.
    # 2. Name your repository hello-world.
-   2. 저장소 이름을 hello-world 지정하십시오.
+   2. 저장소 이름을 hello-world로 설정
    # 3. Write a short description.
-   3. 짧은 설명을 작성하십시
-   4. Select Initialize this repository with a README.
+   3. 짧은 설명을 달아줘용.
+   4. Initialize this repository with a README 체크는 README.md 파일을
+      자동으로 생성시킨다. (README.org를 사용하세용 :) )
 
 [[file:./images/create-new-repo.png]]
 
