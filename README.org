@@ -262,11 +262,13 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 **** 1. Pull Request탭 클릭, Pull Request 페이지에서, @@html:<kbd>@@New pull request@@html:</kbd>@@ 녹색 버튼을 클릭
      [[file:./images/pr-tab.gif]]
 # **** 2. Select the branch you made, readme-edits, to compare with master (the original). 	branch
-**** 2. 만든 "readme-edits" branch를 선택, 머지하고 싶은 (원본) to compare with master (the original).
-
-Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
-When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
-Give your pull request a title and write a brief description of your changes. 	pr-form
+**** 2. 비교하고픈, 원본(base) branch를 선택, 추가코드(compare) branch를 선택. (*주의*: base와 compare 자리가 바꿔봐라==증분추가 가능)
+     [[file:./images/pick-branch.png]]
+# **** 3. Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
+**** 3.비교 페이지에서 비교 항목의 변경 사항을 살펴보고 제출하려는 내용이 맞는지 확인하십시오.
+     [[file:./images/diff.png]]
+**** 4.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
+**** 5.Give your pull request a title and write a brief description of your changes. 	pr-form
 
 When you’re done with your message, click Create pull request!
 
