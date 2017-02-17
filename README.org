@@ -155,8 +155,8 @@ GitHub에서 branch를 사용하는 이유는....
     # 3. Type a branch name, readme-edits, into the new branch text box.
     # 4. Select the blue Create branch box or hit “Enter” on your keyboard.
 
-    1. hello-world 너의 새 저장소를 보아라.
-    2. 파일리스트 왼쪽 위에 <kbd>branch: master</kbd> 드랍다운 버튼을 누르고
+    1. @@hello-world@@ 너의 새 저장소를 보아라.
+    2. 파일리스트 왼쪽 위에 @@html:<kbd>branch: master</kbd>@@ 드랍다운 버튼을 누르고
     3. 새 Branch 이름을 적는 공간에 readme-edits 라고 적는다.(마음대로 새 branch명을 적어보자!)
     4. Select the blue Create branch box or hit “Enter” on your keyboard.
 
