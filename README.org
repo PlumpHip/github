@@ -28,29 +28,30 @@ GitHub을 시작합시다!
  + Open and merge a pull request
 
 # What is GitHub?
-* *GitHub이 뭐에용?*
+* *GitHub가 뭐에용?*
 
 # GitHub is a code hosting platform for version control and collaboration.
 # It lets you and others work together on projects from anywhere.
-GitHub은 버전 제어 및 공동 작업을위한 코드 호스팅 플랫폼입니다.
-그것은 당신과 다른 사람들이 어디서나 프로젝트를 함께 할 수있게합니다.
+GitHub은 버전제어(version control)과 협동작업=협업(collaboration)을 위한 "코드호스팅플랫폼"입니다.
+어디서나 함께 프로젝트를 할수있게해줘용.
 
 # This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests.
 # You’ll create your own Hello World repository and learn GitHub’s Pull Request workflow, a popular way to create and review code.
-이 튜토리얼에서는 저장소(repositories), 분기(branches), 커밋(commits)
-및 끌어오기 요청(Pull Requests)과 같은 GitHub필수 기능에 대해 설명합니다.
+이 강좌(Tutorial)은
+저장소(repositories) 분기(branches) 커밋(commits)
+풀리퀘(Pull-Requests) 같은 GitHub 필수기능에 대해 설명함.
 
 # No coding necessary
-코딩 필요 없음
+이 강좌는 코딩을 안해도 배울수 있다.
 
 # To complete this tutorial, you need a GitHub.com account and Internet access.
 # You don’t need to know how to code, use the command line, or install Git (the version control software GitHub is built on).
-이 자습서를 완료하려면 GitHub.com 계정 과 인터넷 액세스가 필요합니다.
-코드 작성, 명령 행 사용 또는 Git (GitHub가 빌드 된 버전제어 소프트웨어)을 설치하는 방법을 알 필요가 없습니다.
+따라해볼려면, GitHub.com 계정과 인터넷 접속이 필요함.
+코드작성 및 Git을 command line에서 쳐서따라하거나, git을 설치하지 않아도 되용.
 
     # Tip: Open this guide in a separate browser window (or tab) so
     # you can see it while you complete the steps in the tutorial.
-    팁 : 이 가이드는 별도의 브라우저 창 (또는 탭)에서 열어 튜토리얼의 단계를 완료하는 동안 볼 수 있습니다.
+    팁: 이 가이드를 별도의 브라우저 창이나 탭에서 열고, 꼭~~ 모두 따라해봐요.
 
 # ** Step 1. Create a Repository
 ** 1단계. 저장소(Repository) 만들기
@@ -59,15 +60,23 @@ GitHub은 버전 제어 및 공동 작업을위한 코드 호스팅 플랫폼입
   # We recommend including a README, or a file with information about your project.
   # GitHub makes it easy to add one at the same time you create your new repository.
   # It also offers other common options such as a license file.
-일반적으로 저장소 는 단일 프로젝트를 구성하는데 사용됩니다.
-리포지토리에는 프로젝트에 필요한 폴더 및 파일, 이미지, 비디오, 스프레드 시트 및 데이터 세트가 포함될 수 있습니다.
-README 또는 프로젝트 정보가 포함 된 파일을 포함하는 것이 좋습니다.
-GitHub를 사용하면 새 저장소를 만드는 동시에 쉽게 추가 할 수 있습니다.
-또한 라이센스 파일과 같은 다른 공통 옵션을 제공합니다.
+일반적으로 저장소(Repository)는 단일 프로젝트를
+구성합니다. (submodule이라는 상하 프로젝트 단위가 있긴 합니다만 그에
+대한 내용은 이 메뉴얼에선 안나옴)
+
+저장소에는 프로젝트에 필요한 폴더 및 이미지, 비디오, 스프레드 시트 등
+데이터 파일 모임일수 있죠.
+
+따로 README같은 프로젝트 정보가 포함된 파일을 포함하는 것이 좋습니다.
+GitHub를 사용하면 새 저장소를 만드는 동시에 쉽게 README 파일을 추가 할
+수 있음.
+
+또한 License 파일과 같은 다른옵션도 제공할수 있습니다.
 
 # Your "hello-world" repository can be a place where you store ideas,
 # resources, or even share and discuss things with others.
-hello-world 저장소는 아이디어, 자원을 저장하거나 다른 사람들과 공유하고 토론 할 수있는 장소가 될 수 있습니다.
+hello-world 저장소는
+아이디어, 자원을 저장하거나 다른 사람들과 공유하고 토론 할 수있는 장소가 될 수 있습니다.
 
 *** To create a new repository
 
