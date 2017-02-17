@@ -211,6 +211,61 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 
 [[file:./images/commit.png]]
 
+abrakatabral.
+These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+
+Step 4. Open a Pull Request
+
+Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+
+Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+
+By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+
+You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
+Open a Pull Request for changes to the README
+
+Click on the image for a larger version
+Step 	Screenshot
+Click the
+Pull Request tab, then from the Pull Request page, click the green New pull request button. 	pr-tab
+Select the branch you made, readme-edits, to compare with master (the original). 	branch
+Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
+When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
+Give your pull request a title and write a brief description of your changes. 	pr-form
+
+When you’re done with your message, click Create pull request!
+
+    Tip: You can use emoji and drag and drop images and gifs onto comments and Pull Requests.
+
+Step 5. Merge your Pull Request
+
+In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
+
+    Click the green Merge pull request button to merge the changes into master.
+    Click Confirm merge.
+    Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+merge delete
+Celebrate!
+
+By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada: :octocat: :zap:
+
+Here’s what you accomplished in this tutorial:
+
+    Created an open source repository
+    Started and managed a new branch
+    Changed a file and committed those changes to GitHub
+    Opened and merged a Pull Request
+
+Take a look at your GitHub profile and you’ll see your new contribution squares!
+
+To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project :octocat:
+
+    Tip: Check out our other Guides, YouTube Channel and On-Demand Training for more on how to get started with GitHub.
+
 # These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
 이러한 변경사항은 readme-edits 브랜치의 README.org 파일에만 적용되므로 이제 이 branch에는 master와 다른 내용이 포함됩니다.
 
@@ -337,5 +392,7 @@ Pull Requests의 힘에 대해 더 배우려면, [[https://guides.github.com/int
     # Training for more on how to get started with GitHub.
     팁 : GitHub을 시작하는 방법에 대한 자세한 내용은 다른 [[https://guides.github.com/][가이드]],
     [[https://www.youtube.com/githubguides][YouTube채널]] 및 [[https://services.github.com/on-demand/][On-Demand]] 교육을 확인하십시오.
+
+
 
 Last updated April 7, 2016
