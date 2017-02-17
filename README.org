@@ -1,5 +1,7 @@
 원문: https://guides.github.com/activities/hello-world/
 
+Hello PlumpMath Friends~~.
+  
 * Hello World
 10 minute read
 
