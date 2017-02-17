@@ -267,7 +267,9 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 # **** 3. Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
 **** 3.비교 페이지에서 비교 항목의 변경 사항을 살펴보고 제출하려는 내용이 맞는지 확인하십시오.
      [[file:./images/diff.png]]
-**** 4.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
+# **** 4.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
+**** 4.제출하려는 변경사항이 만족스럽다면 *@@html:<kbd>@@Create Pull Request@@html:</kbd>@@* 녹색버튼을 클릭
+
 **** 5.Give your pull request a title and write a brief description of your changes. 	pr-form
 
 When you’re done with your message, click Create pull request!
