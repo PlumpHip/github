@@ -70,15 +70,16 @@ hello-world 저장소는 아이디어, 자원을 저장하거나 다른 사람�
 
 *** To create a new repository
 
-   # 1. In the upper right corner, next to your avatar or identicon, click and then select New repository.
-   1. 오른쪽 상단의 아바타 또는 identicon 옆에있는을 클릭하십시오.
-      (+)새저장소를 선택하십시오.
+   # 1. In the upper right corner, next to your avatar or identicon,
+   # click and then select New repository.
    # 2. Name your repository hello-world.
-   2. 저장소 이름을 hello-world로 설정
    # 3. Write a short description.
-   3. 짧은 설명을 달아줘용.
-   4. Initialize this repository with a README 체크는 README.md 파일을
-      자동으로 생성시킨다. (README.org를 사용하세용 :) )
+    1. 오른쪽 상단의 아바타 또는 identicon 옆에있는을 클릭하십시오.
+       (+)새저장소를 선택하십시오.
+    2. 저장소 이름을 hello-world로 설정
+    3. 짧은 설명을 달아줘용.
+    4. Initialize this repository with a README 체크는 README.md 파일을
+       자동으로 생성시킨다. (README.org를 사용하세용 :) )
 
 [[file:./images/create-new-repo.png]]
 
