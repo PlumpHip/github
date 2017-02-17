@@ -236,7 +236,7 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 # By using GitHub’s @mention system in your pull request message,
 # you can ask for feedback from specific people or teams,
 # whether they’re down the hall or 10 time zones away.
-풀 요청 메시지에서 GitHub의 @mention 시스템 사용허면,
+풀 요청 메시지에서 GitHub의 [[https://help.github.com/articles/about-writing-and-formatting-on-github/#text-formatting-toolbar][@mention(언급)시스템]] 사용허면,
 가까운동네에 있든지 10시간대에 떨어져있는 딴나라에 있는
 특정 사람이나 팀으로부터 피드백을 요청할 수 있습니다.
 
@@ -244,14 +244,15 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 # It’s a great way to learn the GitHub Flow before working on larger projects.
 # Open a Pull Request for changes to the README
 심지어 자신의 저장소에서 pull requests을 직접보내고, 병합(merge) 할 수도 있습니다.
-대규모 프로젝트를 수행하기 전에 GitHub Flow를 배울 수있는 좋은 방법입니다.
-README에 대한 변경사항에 대해, 풀리쾌를 보내보자.
+대규모 프로젝트를 수행하기 전에 GitHub FLow를 배울수 있어 조타
 
-Click on the image for a larger version
-Step 	Screenshot
-Click the
-Pull Request tab, then from the Pull Request page, click the green New pull request button. 	pr-tab
-Select the branch you made, readme-edits, to compare with master (the original). 	branch
+# *** Open a Pull Request for changes to the README
+*** README에 대한 변경사항에 대해, 풀리쾌를 열어보자.
+
+# **** Click the Pull Request tab, then from the Pull Request page, click the green New pull request button.
+**** Pull Request탭 클릭, Pull Request 페이지에서, @@html:<kbd>@@New pull request@@html:</kbd>@@ 녹색 버튼을 클릭
+     [[file:./images/pr-tab.gif]]
+**** Select the branch you made, readme-edits, to compare with master (the original). 	branch
 Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
 When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
 Give your pull request a title and write a brief description of your changes. 	pr-form
