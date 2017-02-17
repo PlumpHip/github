@@ -227,12 +227,25 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 풀리퀘 는 두 Branches 를 보여주고,내용의 부분 차이점도 표시해줘용.
 추가된변경(+)은 Green으로, 빠진변경(-)은 Red로 표시됩니다.
 
-As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+# As soon as you make a commit,
+# you can open a pull request and start a discussion,
+# even before the code is finished.
+커밋을하는 즉시, 풀리퀘를 보내공 토론을 시작할 수 있습니다.
+당연히 커밋전에 할수도 있다
 
-By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+# By using GitHub’s @mention system in your pull request message,
+# you can ask for feedback from specific people or teams,
+# whether they’re down the hall or 10 time zones away.
+풀 요청 메시지에서 GitHub의 @mention 시스템 사용허면,
+가까운동네에 있든지 10시간대에 떨어져있는 딴나라에 있는
+특정 사람이나 팀으로부터 피드백을 요청할 수 있습니다.
 
-You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
-Open a Pull Request for changes to the README
+# You can even open pull requests in your own repository and merge them yourself.
+# It’s a great way to learn the GitHub Flow before working on larger projects.
+# Open a Pull Request for changes to the README
+심지어 자신의 저장소에서 pull requests을 직접보내고, 병합(merge) 할 수도 있습니다.
+대규모 프로젝트를 수행하기 전에 GitHub Flow를 배울 수있는 좋은 방법입니다.
+README에 대한 변경사항에 대해, 풀리쾌를 보내보자.
 
 Click on the image for a larger version
 Step 	Screenshot
