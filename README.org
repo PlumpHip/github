@@ -201,13 +201,30 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 
 [[file:./images/commit.png]]
 
-These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+# These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+이러한 변경사항은 readme-edits 브랜치의 README.org 파일에만 적용되므로 이제 이 branch에는 master와 다른 내용이 포함됩니다.
 
-Step 4. Open a Pull Request
+# ** Step 4. Open a Pull Request
+** 4단계. Pull Request를 해보자!
 
-Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+# Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+편집/추가 잘했어! 이제 넌 master의 branch에서 변경된 사항이 갖고 있으므로, pull request 할수 있습니다.
 
-Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+# Pull Requests are the heart of collaboration on GitHub.
+# When you open a pull request, you’re proposing your changes and
+# requesting that someone review and pull in your contribution and
+# merge them into their branch.
+# Pull requests show diffs, or differences, of the content from both branches.
+# The changes, additions, and subtractions are shown in green and red.
+
+풀 요청(Pull Requests)은 GitHub의 공동 작업의 핵심입니다.
+니가 너의 변경내용을 제안하는 "풀리퀘(Pull Requests)"을 하면,
+(풀리퀘 받은)저장소 주인은
+너의 공헌(contribution)들을 받아서(pull), 검토(review)하고,
+자신의 저장소에 새 branch를 병합(merge)하게 된다.
+
+풀리퀘 는 두 Branches 를 보여주고,내용의 부분 차이점도 표시해줘용.
+추가된변경(+)은 Green으로, 빠진변경(-)은 Red로 표시됩니다.
 
 As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
 
