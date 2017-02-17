@@ -61,8 +61,8 @@ GitHub은 버전제어(version control)과 협동작업=협업(collaboration)을
   # GitHub makes it easy to add one at the same time you create your new repository.
   # It also offers other common options such as a license file.
 일반적으로 저장소(Repository)는 단일 프로젝트를
-구성합니다. (submodule이라는 상하 프로젝트 단위가 있긴 합니다만 그에
-대한 내용은 이 메뉴얼에선 안나옴)
+구성합니다. (submodule이라는 git프로젝트안에 하위git프로젝트를
+알까기방법이 존재하지만 이메뉴얼에서는 안나옴)
 
 저장소에는 프로젝트에 필요한 폴더 및 이미지, 비디오, 스프레드 시트 등
 데이터 파일 모임일수 있죠.
