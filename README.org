@@ -89,7 +89,7 @@ hello-world 저장소는
     2. 저장소 이름을 hello-world로 설정
     3. 짧은 설명을 달아줘용.
     4. Initialize this repository with a README 체크는 README.md 파일을
-       자동으로 생성시킨다. (난 이맥스이용자기 때문에 README.org를 사용) )
+       자동으로 생성시킨다. (난 이맥스이용자기 때문에 README.org를 사용)
 
 [[file:./images/create-new-repo.png]]
 
