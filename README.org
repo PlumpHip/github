@@ -162,24 +162,44 @@ GitHub에서 branch를 사용하는 이유는....
 
 [[file:./images/readme-edits.gif]]
 
-Now you have two branches, master and readme-edits. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
+# Now you have two branches, master and readme-edits.
+# They look exactly the same, but not for long!
+# Next we’ll add our changes to the new branch.
+master 및 readme-edit 2가지 branch(=버전)가 생겼당.
+똑같이 보이지만, 추가한 branch(버전하나)를 딴내용으로 바꾸든/추가하든/채워라!
+그렇게 이제 우리는 새branch로 우리의 새작업을 추가하면 된데용...
+(Github 이누마~~ 그걸 보여줘야징.. 아래에 나오는거 같당.)
 
-Step 3. Make and commit changes
+# ** Step 3. Make and commit changes
+** 3단계. 변경하고 커밋하기
 
-Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master. Let’s make some edits.
+# Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master.
+# Let’s make some edits.
+브라보! 이제 master브랜치 사본인 readme-edits브랜치에 대한 코드뷰가 생겼다.
+몇 가지 사항을 수정 해 보겠습니다.
 
-On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
-Make and commit changes
+# On GitHub, saved changes are called commits.
+# Each commit has an associated commit message, which is a description explaining why a particular change was made.
+# Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+# Make and commit changes
+GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니다.
+각 커밋에는 관련 변경 메시지가 있으며, 이는 특정 변경이 이루어진 이유를 설명하는 설명입니다.
+커밋 메시지는 변경 기록을 캡처하므로 다른 작성자가 수행 한 작업과 그 이유를 이해할 수 있습니다.
+변경한걸 커밋해보기~
 
-    Click the README.md file.
-    Click the
+# 2. Click the pencil icon in the upper right corner of the file view to edit.
+# 3. In the editor, write a bit about yourself.
+# 4. Write a commit message that describes your changes.
+# 5. Click Commit changes button.
+    1. README.md 파일을 클릭해라. (나는 안올렸지롱~ README.org가 그파일임) (*주의사항* : 새로만든 readme-edits브랜치로 두고 작업해라)
 
-    pencil icon in the upper right corner of the file view to edit.
-    In the editor, write a bit about yourself.
-    Write a commit message that describes your changes.
-    Click Commit changes button.
+    2. 편집할 파일보기의 오른쪽 상단 구석에있는 연필 아이콘을
+       클릭하십시오.
+    3. 에디터에서 아무거나 조금 씁니다.
+    4. 변경사항을 설명하는 커밋메시지를 작성하십시오.
+    5. "Commit changes" 버튼을 클릭.
 
-commit
+[[file:./images/commit.png]]
 
 These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
 
