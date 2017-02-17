@@ -128,7 +128,7 @@ master branch에서 새 branch를 생성 하면 그 시점은 master(branch)의 
  + story-joe-edit.txt
  + story-joe-edit-reviewed.txt
 
-Branches accomplish similar goals in GitHub repositories.
+# Branches accomplish similar goals in GitHub repositories.
 Branches 지점은 GitHub 저장소에서 비슷한 목표를 달성합니다. (뭔소리야 google번역기야...-_-)
 
 # Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our master-(production)-branch.
@@ -139,9 +139,13 @@ GitHub에서 branch를 사용하는 이유는....
 개발자나, 작가나, 디자이너가 작성한 새기능 즉 버그수정같은
 새로운 (code,text,picture) 같은 새로운 data들이 변경/추가될때마다 *branch* 라 명명허고
 그래서 branch라는 기능을 사용하면.
-이전의 master (production) branch의 백업본을 유지하기하며 분리시켜줍니다.
-(여튼.. 작업할때마다 branch를 추가시켜서 작업해야만 파일 덮어 씌어져 소실되지 않고, 협업이 가능해요.)
-변경(change)이 준비되면, master branch에다 새작업 branch를 병합(merge)합니다.
+이전의 master (production) branch의 이전 작업이력을 백업본으로 유지하면서 새 작업과 분리시켜줍니다.
+
+(여튼.. 작업할때마다 branch를 추가시켜서 작업해야만
+여러사람들이 (누가/무엇을/언제) 작업했는지 구분하기 위한 협업이 가능해요.)
+
+변경된작업(change)을 올릴때, master branch에다 새작업 branch를 병합(merge)합니다.
+(그냥 혼자 작업하면, master브랜치로만 작업해도 됩니다.)
 
 # To create a new branch
 *새 Branch 를 만들려면*
@@ -152,7 +156,7 @@ GitHub에서 branch를 사용하는 이유는....
     # 4. Select the blue Create branch box or hit “Enter” on your keyboard.
 
     1. hello-world 너의 새 저장소를 보아라.
-    2. 파일리스트 왼쪽 위에 "branch: master" 드랍다운 버튼을 누르고
+    2. 파일리스트 왼쪽 위에 <kbd>branch: master</kbd> 드랍다운 버튼을 누르고
     3. 새 Branch 이름을 적는 공간에 readme-edits 라고 적는다.(마음대로 새 branch명을 적어보자!)
     4. Select the blue Create branch box or hit “Enter” on your keyboard.
 
