@@ -258,10 +258,12 @@ GitHub에서, 저장된 변경사항(changes)을 커밋(commits)이라고합니�
 # *** Open a Pull Request for changes to the README
 *** README에 대한 변경사항에 대해, 풀리쾌를 열어보자.
 
-# **** Click the Pull Request tab, then from the Pull Request page, click the green New pull request button.
-**** Pull Request탭 클릭, Pull Request 페이지에서, @@html:<kbd>@@New pull request@@html:</kbd>@@ 녹색 버튼을 클릭
+# **** 1. Click the Pull Request tab, then from the Pull Request page, click the green New pull request button.
+**** 1. Pull Request탭 클릭, Pull Request 페이지에서, @@html:<kbd>@@New pull request@@html:</kbd>@@ 녹색 버튼을 클릭
      [[file:./images/pr-tab.gif]]
-**** Select the branch you made, readme-edits, to compare with master (the original). 	branch
+# **** 2. Select the branch you made, readme-edits, to compare with master (the original). 	branch
+**** 2. 만든 "readme-edits" branch를 선택, 머지하고 싶은 (원본) to compare with master (the original).
+
 Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. 	diff
 When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. 	create-pull
 Give your pull request a title and write a brief description of your changes. 	pr-form
