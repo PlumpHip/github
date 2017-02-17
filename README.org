@@ -88,7 +88,7 @@ hello-world 저장소는
        (+)새저장소를 선택하십시오.
     2. 저장소 이름을 hello-world로 설정
     3. 짧은 설명을 달아줘용.
-    4. Initialize this repository with a README 체크는 README.md 파일을
+    4. Initialize this repository with a README <-- 요 체크는 README.md 파일을
        자동으로 생성시킨다.
        (난 이맥스이용자기 때문에 마크다운보단 README.org를 애용)
 
